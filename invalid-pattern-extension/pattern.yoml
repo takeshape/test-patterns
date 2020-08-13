@@ -1,0 +1,8 @@
+name: Invalid Pattern Extension
+description: yoml  is not a valid yaml file extension, so this file won't be found when importing.
+icon: book-open
+color: "#6235BF"
+categories:
+  - internal
+  - testing
+  

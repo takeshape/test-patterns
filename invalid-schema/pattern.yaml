@@ -1,0 +1,8 @@
+name: Invalid Schema
+description: The schema.json file in this Pattern is valid JSON but an invalid schema.
+icon: book-open
+color: "#6235BF"
+categories:
+  - internal
+  - testing
+  

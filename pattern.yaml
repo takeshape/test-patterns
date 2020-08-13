@@ -1,0 +1,8 @@
+name: Pattern in Project Root
+description: Patterns can be both in the project root and nested in a subdirectory.
+icon: book-open
+color: "#6235BF"
+categories:
+  - internal
+  - testing
+  

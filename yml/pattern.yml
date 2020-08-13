@@ -1,0 +1,8 @@
+name: YML Extension
+description: This is a pattern.yml, not a pattern.yaml. Both extensions will work.
+icon: book-open
+color: "#6235BF"
+categories:
+  - internal
+  - testing
+  
