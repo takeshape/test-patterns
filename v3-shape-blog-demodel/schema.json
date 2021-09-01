@@ -244,11 +244,6 @@
               "shapeIds": ["ASSET"],
               "type": "single"
             }
-          },
-          "featuredPost": {
-            "title": "Featured Post",
-            "@mapping": "takeshape:local:HomepageHero.SJ1Xo0v8b",
-            "$ref": "#/shapes/TSRelationship/schema"
           }
         }
       }
@@ -419,13 +414,10 @@
             "properties": {
               "image": {
                 "widget": "image"
-              },
-              "featuredPost": {
-                "widget": "relationship"
               }
             },
             "widget": "object",
-            "order": ["image", "featuredPost"]
+            "order": ["image"]
           }
         },
         "order": ["title", "hero"]
@@ -449,35 +441,6 @@
           }
         },
         "order": ["name"]
-      }
-    },
-    "Post": {
-      "default": {
-        "properties": {
-          "author": {
-            "widget": "relationship"
-          },
-          "deck": {
-            "widget": "paragraphText"
-          },
-          "title": {
-            "widget": "singleLineText"
-          },
-          "featureImage": {
-            "widget": "image"
-          },
-          "body": {
-            "widget": "wysiwygText"
-          },
-          "slug": {
-            "instructions": "Slug needs to be unique among items of this content type",
-            "widget": "singleLineText"
-          },
-          "tags": {
-            "widget": "relationship"
-          }
-        },
-        "order": ["title", "slug", "tags", "deck", "author", "featureImage", "body"]
       }
     },
     "Author": {
